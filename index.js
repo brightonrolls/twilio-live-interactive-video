@@ -2,7 +2,6 @@
   "name": "twilio-live-interactive-video",
   "version": "1.1.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "postinstall": "npm install --prefix apps/web",
     "test": "true",
@@ -12,7 +11,7 @@
     "serverless:remove": "node serverless/scripts/remove.js",
     "develop:web": "npm run start --prefix apps/web",
     "start": "node index.js"
-  },
+          }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/twilio/twilio-live-interactive-video.git"
