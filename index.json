@@ -10,7 +10,8 @@
     "serverless:deploy": "node serverless/scripts/deploy.js",
     "serverless:list": "node serverless/scripts/list.js",
     "serverless:remove": "node serverless/scripts/remove.js",
-    "develop:web": "npm run start --prefix apps/web"
+    "develop:web": "npm run start --prefix apps/web",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
